@@ -148,8 +148,8 @@ class CommentForm extends React.Component{
 class ArticleCommentBox extends React.Component {
   constructor(props) {
     super(props);
-    this.handleCommentSubmit=this.handleCommentSubmit.bind(this);
-    this.quote=this.quote.bind(this);
+    this.handleCommentSubmit=this.handleCommentSubmit.bind(this);/*评论提交事件*/
+    this.quote=this.quote.bind(this);/*引用*/
     this.state={
       data:[],
       quoteDate:{}
@@ -179,3 +179,9 @@ quote(data){/*点击引用事件*/
   }
 }
 export default ArticleCommentBox;
+
+/*
+ 结构
+ 
+ 
+ */

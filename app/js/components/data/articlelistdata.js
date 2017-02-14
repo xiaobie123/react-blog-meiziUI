@@ -7,7 +7,8 @@ var articledate=[];
 for(let i=1;i<100;i++){
 	let article={
       articleId:i,
-      articleImg:"../../i/f"+Math.floor(Math.random()*10+1)+".jpg",
+      /*articleImg:"../../i/f"+Math.floor(Math.random()*10+1)+".jpg",*/
+     articleImg:"../../i/0"+Math.floor(Math.random()*9+1)+".jpg",
       articleName:"小名",
       articledate:"2015/10/9",
       articleTitle:"总在思考一句积极的话",
