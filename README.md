@@ -48,3 +48,4 @@ npm run build
 
 ## 效果 ##
 [demo地址](https://xiaobie123.github.io/react-blog-meiziUI/%E5%9B%BE%E7%89%87/jdfw3.gif)
+最后把这张图片下载下来看，在线看，有点卡
